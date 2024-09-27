@@ -179,12 +179,22 @@ function showResult() {
   const imgElement = document.createElement('img');
   const imgElement2 = document.createElement('img');
   if (character === "Grindli Godoy") {
+
+    const descricao = document.createElement("p");
+    descricao.textContent = "Grindli Godoy é um dragão descrente e solitário, mas é muito inteligente e forte";
+    container.appendChild(descricao);
     imgElement.src = 'img\\urano.png';
     container.appendChild(imgElement);
   } else if (character === "Kodouak Fideliz") {
+    const descricao = document.createElement("p");
+    descricao.textContent = "Kodouak Fideliz é um anão crente e pouco amigável, porém é muito trabalhador e guerreiro.";
+    container.appendChild(descricao);
     imgElement.src = 'img\\maconheirofantasma.png';
     container.appendChild(imgElement);
   } else if (character === "Weron Seidii") {
+    const descricao = document.createElement("p");
+    descricao.textContent = "Weron Seidii é um elfo amigável e que acredita no poder da naturaza, defendendo ao maximo os animais e seus colegas";
+    container.appendChild(descricao);
     imgElement.src = 'img\\charrado.png';
     container.appendChild(imgElement);
   } else if (character === 'Grindli Godoy & Kodouak Fideliz') {

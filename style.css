@@ -16,6 +16,7 @@ body {
     text-align: center;
     padding: 10px;
     border-radius: 10px;
+    background-color: #f0f0f0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
   
@@ -41,7 +42,12 @@ body {
     display: flex;
     width: 300px;
     padding: 10px;
-    padding-left: 110px;
+    padding-left: 38%;
   }
+
+  span{
+    color: black;
+  }
+
 
   
